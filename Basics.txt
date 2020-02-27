@@ -1,0 +1,78 @@
+Typescript:
+
+------> open source and pure object-oriented
+------> superset of java script
+------> Designed for large scale applications
+------> ES6 version of Java script
+------> strongly typed language means explicitly convert data types.
+------> supports static typing,stongly type,modules,optional parameters.
+
+   TypeScript cannot run directly on browser.It need a compailer to run .ts.
+   That compiler name is TSC.This TSC compailes the .ts file and convert to .js file
+
+Advantages & Disadvantages:
+
+   ADV:
+       -> Highlights errors at compilation time (javascript runtime errors shows)
+       -> strongly typed programming language.
+       -> runs on any browser
+   DISADV:
+       -> takes long time to compile the code
+
+
+Diferences js & ts:
+
+      JS:
+         -> weekly typed programming language
+         -> it just scripting language
+         -> highlights error at run time
+         -> Does not support modules
+         -> Does not support generics.
+      TS: 
+         -> strongly typed programming language
+         -> pure object oriented language
+         -> highlights error at compile time
+         -> support modules
+         -> support generics.
+
+Components of typescript:
+      typescript is internally divided into three main layers.
+      these layers are divided into sublayers or components.
+      these layers are:
+        * Language
+        * Typescript Compiler
+        * Typescript language services: which helps editors and other tools to 
+          give better assistance features such as intellisens like code formating
+          colorization, statement completion, signature help, etc.
+
+Install TypeScript:
+       we require: 
+                   * IDE
+                   * Nodejs
+                   * Npm
+                   * Typescript
+       > npm install -g typescript
+       > tsc -v
+       > npm install -g typescript@latest (install latest version of typescript)
+       > tsc hello.ts (to run typescript file).
+
+Type Anotation in TypeScript:
+          Type Annotations are annotations which can be placed anywhere when we use 
+          a type. The use of Type annotation is not mandatory in TypeScript. 
+          It helps the compiler in checking the types of variable and avoid errors
+          when dealing with the data types.
+
+
+TypeScript Variables:
+
+   variables can be declared using : var, let, const.
+   ----> var:
+           Any variable declared with 
+           the var keyword inside of a function is a local variable.
+   ----> let:
+             variables declared using "let" have a block scope.the scope of let variables is
+             limited to their containing block,
+             Eg: function, if-else block, loop blocks.
+  -----> const:
+             the const makes a variable a constant where its value canot be changed.
+   
